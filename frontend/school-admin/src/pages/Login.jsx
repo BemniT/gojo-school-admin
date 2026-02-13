@@ -63,11 +63,9 @@ function Login() {
        <form onSubmit={handleLogin}>
   <button type="submit">Login</button>
 </form>
-
-
-        <p>
+        {/* <p>
           I don’t have an account? <a href="/register">Register</a>
-        </p>
+        </p> */}
       </div>
     </div>
   );
